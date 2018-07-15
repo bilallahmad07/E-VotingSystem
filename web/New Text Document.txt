@@ -1,0 +1,142 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="indexcss.css"/>
+        <script type="text/javascript" src="disable.js"></script>
+        <script src="sliderengine/jquery.js"></script>
+        <script src="sliderengine/amazingslider.js"></script>
+        <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+        <script src="sliderengine/initslider-1.js"></script>
+    </head>
+    <body>
+        <div id="wr">
+            <div id="hd">
+    <div id="hd1">
+        <img src="images/hd1u.jpg" style="width: 89%; height: 100%;"/>
+    </div>
+    <div id="hd2">
+        <img src="images/evotingsys.png" style="width: 100%; height: 100%;"/>
+    </div>
+    <div id="hd3">
+    <div id="upr"></div>
+    <div id="hdrlink">
+        <a href="index.html" style="background-image:url(images/imga2.png);">Home</a>
+        <a href="login.html" style="background-image:url(images/imga6.png);">Login</a>
+        <a href="feedback.jsp" target="_blank" style="background-image:url(images/imga.png);">Feedback</a>
+        <a href="query.jsp" target="_blank" style="background-image:url(images/imga5.png);">Query</a>
+        <a href="vsi.jsp" target="_blank" style="background-image:url(images/imga4.png);">About</a>
+
+    </div>
+    </div>
+</div>
+            <div id="lw">
+                <div id="lw1">
+    <img src="images/topbanner_1.jpg"  style="width: 100%; height: 100%;"/>
+                </div>
+                <div id="lw2">
+                    <center>
+                                <span class="blink_text">
+                                    <a href="http://eci.nic.in/eci_main1/current/nvsp.mp4" target="_blank">
+                                        <font style="letter-spacing:-1px" color="#155aa0" size="5">Know more about National Voters' Service Portal</font>
+                                    </a>
+                                </span>
+                            </center>
+<div id="lw21">
+    <table id="tble1" style="width: 95%; height: 98%; margin-top: -20px; background-color: #ffcccc; text-align: center;">
+        <tr class="tr1"><td><a href="index.jsp">Home</a></td></tr>
+        <tr class="tr1"><td><a href="login.jsp">Login</a></td></tr>
+        <tr class="tr1"><td><a href="candidate.jsp">Candidates</a></td></tr>
+        <tr class="tr1"><td><a href="date.jsp">Election Dates</a></td></tr>
+        <tr class="tr1"><td><a href="showresult.jsp"><!--onclick="return disable('Election Result')"-->Current Election Result</a></td></tr>
+        <tr class="tr1"><td><a target="_blank" href="http://eci.nic.in/eci_main1/statistical_reportge2014.aspx">Election Result 2014</a></td></tr>
+        <tr class="tr1"><td><a target="_blank" href="http://eci.nic.in">Visit ECI</a></td></tr>
+        
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+        <tr><td></td></tr>
+    </table>
+</div>
+                    <div id="lw22">
+                        <div id="lw22left">
+    <!--
+                            <div class="con">
+                                <img src="images/slidr1.jpg" class="img">
+                                <img src="images/slidr2.jpg" class="img">
+                                <img src="images/slidr3.jpg" class="img">
+                                <img src="images/slidr4.jpg" class="img">
+                                <img src="images/slidr5.jpg" class="img">
+                                <img src="images/slide4.jpeg" class="img">
+                                
+                            </div>
+-->
+
+
+<div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:450px; float: left;">
+    <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;float: left;">
+        <ul class="amazingslider-slides" style="display:none;">
+            <li><img src="images/slidr4.jpg" alt="slide7" />
+            </li>
+            <li><img src="images/slidr3.jpg" alt="slide6" />
+            </li>
+            <li><img src="images/slidr2.jpg" alt="slide5" />
+            </li>
+            <li><img src="images/slide5.jpg" alt="slide4" />
+            </li>
+            <li><img src="images/slide3.jpg" alt="slide3" />
+            </li>
+            <li><img src="images/slide2.png" alt="slide2" />
+            </li>
+            <li><img src="images/slide1.jpg" alt="slide1" />
+            </li>
+        </ul>
+        <ul class="amazingslider-thumbnails" style="display:none;float: left;">
+            <li><img src="images/slidr4-tn.jpg" alt="slide7" /></li>
+            <li><img src="images/slidr3-tn.jpg" alt="slide6" /></li>
+            <li><img src="images/slidr2-tn.jpg" alt="slide5" /></li>
+            <li><img src="images/slide5-tn.jpg" alt="slide4" /></li>
+            <li><img src="images/slide3-tn.jpg" alt="slide3" /></li>
+            <li><img src="images/slide2-tn.png" alt="slide2" /></li>
+            <li><img src="images/slide1-tn.jpg" alt="slide1" /></li>
+        </ul>
+    </div>
+</div>
+    <div id="below">
+        <marquee direction="up">
+            <ul>
+                <li><h4>ECI invites application for the post of Assistant on deputation basis...<a target="_blank" href="http://eci.nic.in/eci_main1/current/CI_11062015.pdf">more..</a></h4></li>
+                <li><h4>Indonesia evinces keen interest in Indian Electronic Voting Machine...<a target="_blank" href="http://eci.nic.in/eci_main1/current/pn4312615.pdf">more..</a></h4></li>
+                <li><h4>Biennial Election to the Bihar Legislative Council from Local Authorities'constituency...<a target="_blank" href="http://eci.nic.in/eci_main1/current/PN41_04062015.pdf">more..</a></h4></li>
+        </marquee>
+    </div>
+</div>
+                        <div id="lw22right" style="margin-top: -27px;">
+    <div id="up">
+        <a href="http://eci.nic.in/eci_main1/ecz.aspx" style="color: black; text-decoration: none; font-size: 16px;">
+            <img src="images/cec_nz.jpg" style="margin-left: 25%; width: 50%; margin-top: 10px; border: 2px solid #666666;"/>
+            <br>
+            <center>Dr. Nasim Zaidi<br>Cheif  Election Commisioner</center></a>
+    </div>
+    <div id="middle">
+        <table style="text-align: center; width: 100%; height: 98%; margin-top: 5px; ">
+            <tr class="tr2"><td><a href="http://eci.nic.in/eci_main1/Linkto_electo_search.aspx">Search your name in voter's list</a></td></tr>
+            <tr class="tr2"><td><a href="http://psleci.nic.in/">Know your Polling Station</a></td></tr>
+            <tr class="tr2"><td><a href="http://eci.nic.in/eci_main1/tm.aspx">Training Material</a></td></tr>
+            <tr class="tr2"><td><a href="http://eci.nic.in/eci_main1/electoral_law.aspx">Election Laws & instructions</a></td></tr>
+        </table>
+    </div>
+   
+    <div id="down" >
+        <br>
+        <center><span style="font-size: 20px; font-weight: 500;">Visitor Number : <br>1328th<br></span></center>
+    </div>
+</div>
+                    </div>
+                </div>
+            </div>
+            <div id="ft"></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+#menu {
+	background-image:url(bg.png);
+	width:1000px;
+}
+#menu ul {
+  text-align: left;
+  display: inline;
+  
+  padding: 5px 0 10px 0;
+  list-style: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  
+}
+#menu ul li {
+  
+  
+  padding: 15px 20px;
+  background: #ffcccc;
+  cursor: pointer;
+  
+}
+#menu ul li:hover {
+  background: #99ffcc;
+  
+}
+#menu ul li ul {
+
+    height: 190px;
+    margin-left: 31px;
+    width: 240px;
+    opacity: 0;
+    visibility: hidden;
+}
+#menu ul li ul li { 
+    background: #cccccc; 
+    width: 200px;
+    height: 52px;
+    display: block; 
+    color: #fff;
+
+}
+#menu ul li ul li:hover { 
+    background: #ffff99; 
+    color:black;
+}
+#menu ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
